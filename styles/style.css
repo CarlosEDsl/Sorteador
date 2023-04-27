@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(184, 106, 236);
+    text-align: center;
+}
+header {
+    background-color: blueviolet;
+    height: 100px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+input[name="ITEM-PARA-SORTEAR"] {
+    margin: 20px;
+    border: 10px;
+    padding: 20px;
+    height: 30px;
+    width: 600px;
+    font-size:20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+input[value="Enviar item"] {
+    margin: 0 auto;
+    padding: 20px 20px;
+    width: 300px;
+    margin-top: 10px;
+    font-size: larger;
+    color: #5b475e;
+    background-color: rgb(226, 43, 119);
+}
+header h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
